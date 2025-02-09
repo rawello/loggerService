@@ -1,0 +1,14 @@
+{
+    "listeners": [
+        {
+            "address": "0.0.0.0",
+            "port": 8080,
+            "ssl": false
+        }
+    ],
+    "app": {
+        "document_root": ".",
+        "upload_path": "./uploads",
+        "number_of_threads": 0
+    }
+}

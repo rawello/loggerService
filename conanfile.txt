@@ -1,0 +1,12 @@
+[requires]
+drogon/1.9.9
+
+[generators]
+CMakeToolchain
+CMakeDeps
+
+[options]
+boost/*:shared = False
+
+[layout]
+cmake_layout
