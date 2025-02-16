@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.15)
 project(logger_service)
 
-include(${CMAKE_BINARY_DIR}/generators/conan_toolchain.cmake)
+include(${CMAKE_BINARY_DIR}/build/${CMAKE_BUILD_TYPE}/generators/conan_toolchain.cmake)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
